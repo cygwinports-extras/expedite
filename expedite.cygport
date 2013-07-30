@@ -1,12 +1,12 @@
 NAME="expedite"
-VERSION=1.7.4
+VERSION=1.7.7
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Evas benchmark suite"
 DESCRIPTION="This is meant to be a detailed and comprehensive benchmark suite
 for Evas."
 HOMEPAGE="http://www.enlightenment.org/"
-SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+SRC_URI="http://download.enlightenment.org/releases/${NAME}-${VERSION}.tar.bz2"
 
 DEPEND="pkgconfig(eina)
 	pkgconfig(evas)
